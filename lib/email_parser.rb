@@ -6,7 +6,7 @@ class EmailParser
   attr_accessor :email
 
   def initialize(emails)
-    self.email = emails
+    @email = emails
   end
 
   def parse(string)
