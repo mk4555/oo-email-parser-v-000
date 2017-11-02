@@ -10,6 +10,7 @@ class EmailParser
   end
 
   def parse(string)
-
+    emails = string.split(", ")
+    eamils
   end
 end
