@@ -10,7 +10,7 @@ class EmailParser
   end
 
   def parse()
-    email = emails.delete(",").split(" ")
+    @email = @email.delete(",").split(" ")
     email.uniq
   end
 end
