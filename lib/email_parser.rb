@@ -9,8 +9,5 @@ class EmailParser
     @email = emails
   end
 
-  def parse(string)
-    emails = string.split(", ")
-    emails
-  end
+  
 end
